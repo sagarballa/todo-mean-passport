@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo application developed using mean technology and passport",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarballa/todo-mean-passport.git"
+  },
+  "keywords": [
+    "mean",
+    "passport",
+    "mongo",
+    "express",
+    "node",
+    "angular"
+  ],
+  "author": "Sagar Balla",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sagarballa/todo-mean-passport/issues"
+  },
+  "homepage": "https://github.com/sagarballa/todo-mean-passport#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
