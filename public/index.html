@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html>
-	<head ng-app="TodoApp">
+<!doctype html>
+<html  ng-app="TodoApp">
+	<head>
 		<title>Todo</title>
 	</head>
 	<body>
-		Body
+		<div ng-view></div>
 		<script src="js/lib/angular.js"></script>
 		<script src="js/lib/angular-route.js"></script>
 		<script src="js/app/todo-app.js"></script>
+		<script src="js/controller/todolist.js"></script>
 	</body>
 </html>

@@ -1,6 +1,6 @@
 var app = angular.module('TodoApp', ['ngRoute']);
 
-app.config(function($routeProvider){
+app.config(['$routeProvider', function($routeProvider){
 	$routeProvider.when('/todolist', {
 		templateUrl: 'view/todolist.html',
 		controller: 'TodoListCtrl'
@@ -8,4 +8,4 @@ app.config(function($routeProvider){
 	$routeProvider.otherwise({
 		redirectTo: '/todolist'
 	});
-});
+}]);
