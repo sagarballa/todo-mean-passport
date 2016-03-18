@@ -1,3 +1,3 @@
-app.controller('TodoListCtrl', function($scope) {
-	console.log("Test);
-});
+app.controller('TodoListCtrl', ['$scope', function($scope) {
+	console.log("Test");
+}]);
